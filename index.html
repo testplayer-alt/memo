@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <script src="plactice.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-title">
+            自作リスト表
+        </div>
+    </header>
+    <div class="main">
+        <div class="main-continer">
+            <div class="form">
+                <input type="textbox" id="input" class="text-input" placeholder="入力してね">
+                <p id="hup" class="hup"></p> 
+            </div>
+            <div class="countup-btn">
+                <p  class="countnumber" id="countnumber">リストの数0</p>
+                <input type="button" id="resetbtn" class="resetbtn" value="リストを全て削除" onclick="alldeleteli() , this.disabled = true;">
+            </div>
+            <div class="listbox">
+                <ul id="list" class="deleteEvent"></ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
