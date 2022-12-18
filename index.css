@@ -83,3 +83,8 @@ header {
   left: 60%;
   top: 210px;
 }
+#save {
+  position: absolute;
+  left: 70%;
+  top: 210px;
+}
